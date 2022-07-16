@@ -1,0 +1,25 @@
+﻿<Window x:Class="Wiggles3db.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="714" Width="1202">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400" />
+            <ColumnDefinition Width="392*" />
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="tbInfo" Margin="10,42,10,10" TextWrapping="Wrap" Text="TextBox" Grid.Column="0" />
+        <Viewport3D Name="viewport" Margin="10,10,0,10" Grid.Column="1">
+            <ModelVisual3D x:Name="model">
+                <ModelVisual3D.Content>
+                    <Model3DGroup x:Name="group">
+                        <AmbientLight Color="DarkGray" />
+                        <DirectionalLight Color="White" Direction="-5,-5,-7" />
+                    </Model3DGroup>
+                </ModelVisual3D.Content>
+            </ModelVisual3D>
+        </Viewport3D>
+        <Canvas x:Name="overlay" Grid.Column="1"  Margin="10,10,0,10" MouseMove="overlay_MouseMove" MouseUp="overlay_MouseUp" MouseWheel="overlay_MouseWheel" MouseDown="overlay_MouseDown" Background="Transparent"/>
+        <ComboBox x:Name="cbxAnimations" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="380" Height="27" SelectionChanged="cbxAnimations_SelectionChanged"/>
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+C:\Users\Patrick\Downloads\3DB-master\3DB-master\Wiggles3db\bin\Debug\Wiggles3db.exe.config
+C:\Users\Patrick\Downloads\3DB-master\3DB-master\Wiggles3db\bin\Debug\Wiggles3db.exe
+C:\Users\Patrick\Downloads\3DB-master\3DB-master\Wiggles3db\bin\Debug\Wiggles3db.pdb
+C:\Users\Patrick\Downloads\3DB-master\3DB-master\Wiggles3db\obj\Debug\Wiggles3db.csproj.AssemblyReference.cache
+C:\Users\Patrick\Downloads\3DB-master\3DB-master\Wiggles3db\obj\Debug\MainWindow.baml
+C:\Users\Patrick\Downloads\3DB-master\3DB-master\Wiggles3db\obj\Debug\MainWindow.g.cs
+C:\Users\Patrick\Downloads\3DB-master\3DB-master\Wiggles3db\obj\Debug\App.g.cs
+C:\Users\Patrick\Downloads\3DB-master\3DB-master\Wiggles3db\obj\Debug\Wiggles3db_MarkupCompile.cache
+C:\Users\Patrick\Downloads\3DB-master\3DB-master\Wiggles3db\obj\Debug\Wiggles3db.g.resources
+C:\Users\Patrick\Downloads\3DB-master\3DB-master\Wiggles3db\obj\Debug\Wiggles3db.Properties.Resources.resources
+C:\Users\Patrick\Downloads\3DB-master\3DB-master\Wiggles3db\obj\Debug\Wiggles3db.csproj.GenerateResource.cache
+C:\Users\Patrick\Downloads\3DB-master\3DB-master\Wiggles3db\obj\Debug\Wiggles3db.csproj.CoreCompileInputs.cache
+C:\Users\Patrick\Downloads\3DB-master\3DB-master\Wiggles3db\obj\Debug\Wiggles3db.exe
+C:\Users\Patrick\Downloads\3DB-master\3DB-master\Wiggles3db\obj\Debug\Wiggles3db.pdb
