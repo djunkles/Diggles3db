@@ -17,13 +17,13 @@ class Deserializer:
         return value
 
     def read_u16(self) -> int:
-        value = struct.unpack_from('h', self.data, self.offset)[0]
-        self.advance(struct.calcsize('h'))
+        value = struct.unpack_from('H', self.data, self.offset)[0]
+        self.advance(struct.calcsize('H'))
         return value
 
     def read_u32(self) -> int:
-        value = struct.unpack_from('l', self.data, self.offset)[0]
-        self.advance(struct.calcsize('l'))
+        value = struct.unpack_from('I', self.data, self.offset)[0]
+        self.advance(struct.calcsize('I'))
         return value
 
     def read_string(self) -> str:
@@ -80,7 +80,8 @@ class Model:
     points_data: List[List[Tuple[float, float, float]]]
     brightness_data: List[List[int]]
 
-    
+# Basic python3 implementation of the same logic as the C# and python2.7
+# implementations 
 def parse_3db_file(raw_data):
 
     deserializer = Deserializer(raw_data)
@@ -251,7 +252,7 @@ def parse_3db_file(raw_data):
             points.append((x, y, z))
         points_data.append(points)
 
-    # TODO: Read brightness data
+    # Read brightness data
     brightness_data = []
     for i in range(brightness_count):
         count = brightness_counts[i]

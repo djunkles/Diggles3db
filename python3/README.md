@@ -9,7 +9,21 @@
 python -m venv .venv
 ```
 
-### 3. Install the python dependencies
+### 3. Activate virtual environment
+
+For Windows
+
+```
+.venv/Scripts/activate
+```
+
+For Linux/Mac OSX
+
+```
+source .venv/bin/activate
+```
+
+### 4. Install the python dependencies
 
 ```
 pip install -r requirements.txt
