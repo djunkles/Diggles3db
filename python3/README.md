@@ -28,3 +28,9 @@ source .venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
+
+### 5. Run the script to convert the baby asset
+
+```
+python run.py
+```
